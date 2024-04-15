@@ -26,7 +26,7 @@
     "@mdx-js/react": "^2.3.0",
     "@monaco-editor/react": "^4.6.0",
     "@next/mdx": "^14.0.4",
-    "@sentry/react": "^7.54.0",
+    "@sentry/react": "^7.108.0",
     "@sentry/utils": "^7.54.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.9",
