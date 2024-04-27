@@ -1,5 +1,5 @@
 # base image
-FROM node:20.11-alpine3.19 AS base
+FROM node:20.12.2-alpine3.19 AS base
 LABEL maintainer="takatost@gmail.com"
 
 RUN apk add --no-cache tzdata
