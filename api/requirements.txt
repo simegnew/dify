@@ -8,7 +8,7 @@ flask-login~=0.6.3
 flask-migrate~=4.0.5
 flask-restful~=0.3.10
 flask-cors~=4.0.0
-gunicorn~=21.2.0
+gunicorn~=22.0.0
 gevent~=23.9.1
 langchain==0.0.250
 openai~=1.13.3
@@ -83,3 +83,6 @@ azure-storage-blob==12.9.0
 azure-identity==1.15.0
 lxml==5.1.0
 xlrd~=2.0.1
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
+grpcio>=1.56.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
