@@ -83,3 +83,7 @@ azure-storage-blob==12.9.0
 azure-identity==1.15.0
 lxml==5.1.0
 xlrd~=2.0.1
+nltk>=3.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
