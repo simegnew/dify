@@ -8,7 +8,7 @@ flask-login~=0.6.3
 flask-migrate~=4.0.5
 flask-restful~=0.3.10
 flask-cors~=4.0.0
-gunicorn~=21.2.0
+gunicorn~=22.0.0
 gevent~=23.9.1
 langchain==0.0.250
 openai~=1.13.3
@@ -59,7 +59,7 @@ pandas==1.5.3
 xinference-client==0.9.4
 safetensors==0.3.2
 zhipuai==1.0.7
-werkzeug~=3.0.1
+werkzeug~=3.0.3
 pymilvus==2.3.0
 qdrant-client==1.7.3
 cohere~=5.2.4
@@ -80,6 +80,14 @@ yarl~=1.9.4
 twilio==9.0.0
 qrcode~=7.4.2
 azure-storage-blob==12.9.0
-azure-identity==1.15.0
+azure-identity==1.16.1
 lxml==5.1.0
 xlrd~=2.0.1
+aiohttp>=3.10.2 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+grpcio>=1.56.2 # not directly required, pinned by Snyk to avoid a vulnerability
+nltk>=3.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
